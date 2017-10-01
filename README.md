@@ -1,2 +1,2 @@
-# single_page_app
+# Single Page Application
 Single Page Application
