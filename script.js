@@ -16,21 +16,32 @@ myApp.config(function($routeProvider) {
         })
 
         // route for the contact page
-        .when('/contact', {
-            templateUrl : 'pages/contact.html',
-            controller  : 'contactController'
+        .when('/jasmine', {
+            templateUrl : 'pages/jasmine.html',
+            controller  : 'jasmineController'
+        })
+
+        // server http
+        .when('/server', {
+            templateUrl : 'pages/server.html',
+            controller  : 'serverController'
         });
 });
 
 myApp.controller('mainController', function($scope) {
-    $scope.message = 'Home page';
+    $scope.title = 'Single Page Application';
+    $scope.subTitle = '...about IT issues';
 });
 
 myApp.controller('aboutController', function($scope) {
-    $scope.message = 'About page';
+    $scope.title = 'About page';
 });
 
-myApp.controller('contactController', function($scope) {
-    $scope.message = 'Contact us';
+myApp.controller('jasmineController', function($scope) {
+    $scope.title = 'Jasmine - install';
+});
+
+myApp.controller('serverController', function($scope) {
+    $scope.title = 'Npm http server';
 });
 
