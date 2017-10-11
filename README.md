@@ -1,12 +1,12 @@
 # Single Page Application
-Single Page Application
+
+<b>Stack:</b>
 
 Angular 1.x
 
-Angular-route 1.x
-<br />
+Angular-route 1.x <br /><br />
 
-Testy:
+<b>Tests:</b>
 
 Jasmine 2.8
 
