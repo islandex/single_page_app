@@ -18,7 +18,7 @@
     "jquery": "~2.2.2",
     "angular": "~1.6.0",
     "angular-route": "~1.6.0",
-    "bootstrap": "~3.3.6",
+    "bootstrap": "~3.4.1",
     "angular-bootstrap": "~0.12.2",
     "lightbox2": "~2.8.2"
   }
